@@ -3,6 +3,8 @@
   :url "http://wal.sh/"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2030"]
+                 [org.clojure/core.logic "0.8.4"]
+                 [enfocus "2.0.2"] 
                  [propaganda "0.2.0"]
                  [ring "1.2.1"]
                  [tailrecursion/javelin "2.3.0"]]
