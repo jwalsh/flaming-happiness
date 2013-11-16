@@ -1,10 +1,11 @@
 (defproject flaming-happiness "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "Flaming Happiness"
+  :url "http://wal.sh/"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2030"]
+                 [propaganda "0.2.0"]
                  [ring "1.2.1"]
-                 [propaganda "0.2.0"]]
+                 [tailrecursion/javelin "2.3.0"]]
   :plugins [[lein-cljsbuild "0.3.2"]
             [lein-ring "0.8.3"]
             [lein-ancient "0.5.4"]]
